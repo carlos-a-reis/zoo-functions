@@ -9,9 +9,6 @@
   "scripts": {
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
-  "jest": {
-    "rootDir": "./test/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/betrybe/sd-03-block9-project-zoo-functions.git"
