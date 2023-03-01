@@ -40,7 +40,6 @@ const returnEmployee = (identification) => {
 };
 
 function getEmployeesCoverage(identification = 0) {
-  // seu código aqui
   if (identification === 0) return defaultReturn();
 
   const employee = returnEmployee(identification);

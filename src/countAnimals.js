@@ -6,7 +6,6 @@ species.forEach((animal) => {
 });
 
 function countAnimals(animal = defaultReturn) {
-  // seu código aqui
   if (animal === defaultReturn) return defaultReturn;
   if (animal.sex !== undefined) {
     return species.find((specie) => specie.name === animal.specie)

@@ -42,7 +42,6 @@ const scheduleGenerator = (schedule) => {
 };
 
 function getSchedule(scheduleTarget = defaultReturn) {
-  // seu código aqui
   if (scheduleTarget === defaultReturn) return defaultReturn;
   if (!species.some((animal) => animal.name === scheduleTarget)
     && !days.some((day) => day === scheduleTarget)) return defaultReturn;

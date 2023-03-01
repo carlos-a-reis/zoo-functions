@@ -34,7 +34,6 @@ const listReturn = (sorted, sex) => {
 };
 
 function getAnimalMap(options = defaultReturn) {
-  // seu código aqui
   if (options === defaultReturn || options.includeNames === undefined) return defaultReturn;
   return listReturn(options.sorted, options.sex);
 }
